@@ -1,0 +1,78 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+
+#container {
+    position: relative;
+    min-width: 100vh;
+}
+
+
+/* Footer Section*/
+#footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+}
+
+.center-footer {
+    text-align: center;
+    margin-top: 45px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+/* Socil Icons */
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* product-section */
+.product-section{
+    padding-bottom: 30px;
+}
+.product_img{
+    width: 250px;
+    height: 250px;
+}
+
+.product-list{
+    text-align: center;
+}
+
+/* Carousel */
+.carousel-caption{
+background-color: #6E6E6E;
+opacity: 0.8;
+}
+
+
