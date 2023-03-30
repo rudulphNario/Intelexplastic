@@ -6,6 +6,24 @@ body {
     padding: 0px;
     overflow-x: hidden;
 }
+.contact-button{
+    background-color: blue;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 120px;
+    position: relative;
+    margin-left: 250px;
+    margin-top: 20px;
+    
+}
+.contact-button a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5rem;
+    padding: 5px;
+   
+    
+}
 
 
 #container {
