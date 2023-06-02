@@ -30,13 +30,31 @@ body {
     position: relative;
     min-width: 100vh;
 }
-.title-head{
-    font-size: 1.5rem;
+.title-heading{
+    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    text-align: center;
 }
-.title-text{
-    line-height: 1.8;
-    margin: 20px auto;
+
+.sub-title{
+    font-size: 1.2rem;
+    font-weight:700;
+    text-align: center;
 }
+.company-discription{
+    text-align: justify;
+    line-height: 2;
+
+}
+
+/* -----Service ------- */
+
+.title-service{
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+
 
 .alert{
     font-size: 1rem;
@@ -85,6 +103,10 @@ body {
 }
 
 /* Socil Icons */
+
+.social-icons{
+    margin-top: 50px;
+}
 .fa-facebook {
     background: #3B5998;
     color: white;
