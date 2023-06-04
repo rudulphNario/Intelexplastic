@@ -4,31 +4,33 @@ body {
     height: 100%;
     margin: 0px;
     padding: 0px;
-    overflow-x: hidden;  
+    overflow-x: hidden;
 }
-h1{
+
+h1 {
     margin-top: 10px;
 }
 
 
 /* nav style */
 
-.navbar{
+.navbar {
     background-color: #537188 !important;
-    -webkit-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    -moz-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);   
+    -webkit-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    -moz-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
 }
 
 
-.nav-link{
-    color: rgb(255, 255, 255);   
+.nav-link {
+    color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
     font-size: 1.3rem;
-    
+
 
 }
-.nav-title{
+
+.nav-title {
     color: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
 }
@@ -37,38 +39,42 @@ h1{
     position: relative;
     min-width: 100vh;
 }
-.carousel{
+
+.carousel {
     margin-top: 15px;
 }
 
-.carousel-caption{
+.carousel-caption {
     background-color: #6E6E6E;
     opacity: 0.8;
-    }
-#title{
+}
+
+#title {
     background-color: #537188;
     color: aliceblue;
-    -webkit-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    -moz-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
+    -webkit-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    -moz-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
     margin-top: -55px;
     height: 50%;
-    
+
 }
-.title-heading{
+
+.title-heading {
     font-family: 'Raleway', sans-serif;
     font-size: 4rem;
     text-align: center;
     margin-top: 80px;
 }
 
-.sub-title{
+.sub-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1.7rem;
-    font-weight:700;
+    font-weight: 700;
     text-align: center;
 }
-.company-discription{
+
+.company-discription {
     font-size: 1.2rem;
     text-align: justify;
     line-height: 2;
@@ -77,48 +83,60 @@ h1{
 
 /* -----Service ------- */
 
-#service{
+#service {
     height: 50%;
 }
 
-.title-service{
+.title-service {
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     margin: 80px 20px;
     text-align: center;
 }
-.font-color{
+
+.font-color {
     font-weight: 700;
     font-size: 1.2rem;
 }
 
 /* ------Product Section */
 
-#product{
+#product {
     background-color: #537188;
     color: aliceblue;
     font-family: 'Roboto', sans-serif;
-    -webkit-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    -moz-box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);
-    box-shadow: 2px 13px 5px -7px rgba(179,175,179,1);   
-  
+    -webkit-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    -moz-box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+    box-shadow: 2px 13px 5px -7px rgba(179, 175, 179, 1);
+
 }
-.product-list{
+
+.product-list {
     text-align: center;
 }
-.product-list>h1{
+
+.product-list>h1 {
     padding-top: 20px;
 }
-.product-list>h4{
+
+.product-list>h4 {
     margin: 10px 0;
 }
-.product-section{
+
+.product-section {
     padding-bottom: 50px;
 }
-.product_img{
+
+.product_img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 15px;
+    padding: 5px;
     width: 300px;
-    height: 250px;
- 
+}
+
+.product_img:hover {
+    box-shadow: 0 0 5px 3px rgba(218, 46, 7, 0.5);
 }
 
 /* Footer Section*/
@@ -150,9 +168,10 @@ h1{
 
 /* Socil Icons */
 
-.social-icons{
+.social-icons {
     margin-top: 50px;
 }
+
 .fa-facebook {
     background: #3B5998;
     color: white;
@@ -174,44 +193,55 @@ h1{
 
 @media only screen and (max-width: 500px) {
 
-    h1{
+    h1 {
         margin-top: 20px;
         font-size: 1rem;
     }
- 
- /* -----Title----- */
-    #title{
-    height: 40%;
- }
-    .title-heading{
+
+    /* -----Title----- */
+    #title {
+        height: 40%;
+    }
+
+    .title-heading {
         font-size: 2rem;
         margin-top: 10px;
     }
-    .sub-title{
+
+    .sub-title {
         font-size: 1rem;
     }
-    .company-discription{
+
+    .company-discription {
         font-size: .6rem;
     }
+
     /* -----Service----- */
-    #service{
+    #service {
         height: 40%;
     }
-    .title-service{
+
+    .title-service {
         font-size: 1rem;
         margin: 10px 0;
     }
-    .col-lg-6{
+
+    .col-lg-6 {
         font-size: .5rem;
     }
-    .product-list>h4{
+
+    .product-list>h4 {
         margin: 10px 0;
         font-size: 1rem;
     }
+    img .product_img{
+       width: 100%;
+       align-items: center;
+    }
 
-    #footer{
+    #footer {
         margin-top: 25px;
     }
- 
 
-  }
+
+}
