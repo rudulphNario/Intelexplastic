@@ -217,10 +217,12 @@ h1 {
     }
 
     /* -----Service----- */
-    #service {
-        height: 40%;
-    }
-
+ #service h1{
+    font-size: 1.5rem;
+ }
+ #service li{
+    font-size: 1rem;
+ }
     .title-service {
         font-size: 1rem;
         margin: 10px 0;
@@ -228,6 +230,9 @@ h1 {
 
     .col-lg-6 {
         font-size: .5rem;
+    }
+    .product-list>h1{
+        font-size: 1.5rem;
     }
 
     .product-list>h4 {
@@ -238,8 +243,17 @@ h1 {
        margin: 10px;
     }
 
+    /* -----FOOTER ----*/
+
     #footer {
         margin-top: 25px;
+    }
+    .bio-picture{
+        width: 50%;
+        margin-left: 25%;
+    }
+    .CEO-tag{
+        text-align: center;
     }
 
 
